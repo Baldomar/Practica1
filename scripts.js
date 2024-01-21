@@ -19,4 +19,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
+  // Función para mostrar un mensaje al hacer clic en el botón
+  function mostrarMensaje() {
+    alert("¡Hola! Has hecho clic en el botón.");
+  }
+  
   
