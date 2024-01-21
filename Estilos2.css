@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('OIP.jpg') center center fixed;
+    background-size: cover;
+    color: #fff; /* Color de texto */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.content {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    animation: moveImage 10s infinite alternate; 
+}
+
+p {
+    text-align: justify; 
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@keyframes moveImage {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(20px);
+    }
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    animation: moveImage 10s infinite alternate;
+}
+
+
+@keyframes moveImage {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% { 
+        transform: translateX(20px);
+    }
+}
+
