@@ -28,7 +28,7 @@ body {
 .box1 {
     width: 200px;
     height: 200px;
-    background-color: zrgb(147, 135, 235);
+    background-color: blue;
     text-align: center;
     line-height: 50px;
     border-radius: 20px;
