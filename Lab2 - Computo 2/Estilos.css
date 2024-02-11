@@ -1,0 +1,70 @@
+body {
+    background-image: url('Lab2 - Computo 2/OIP.jpg'); 
+    background-size: cover; 
+   
+}
+
+.container {
+    display: flex;
+}
+
+.box, .box1 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+
+.box {
+    background-color: orange;
+    text-align: left;
+    line-height: 50px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px; /* Podemos ajustar el radio para diferentes cuadros */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.box, .box1 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+
+.box {
+    background-color: orange;
+    text-align: left;
+    line-height: 50px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px; 
+}
+
+footer {
+    margin-top: 20px;
+}
