@@ -1,3 +1,10 @@
+body {
+    background-image: url('Lab2 - Computo 2/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .container {
     display: flex;
 }
@@ -23,7 +30,7 @@
     background-color: skyblue;
     text-align: center;
     line-height: 50px;
-    border-radius: 20px; /* Podemos ajustar el radio para diferentes cuadros */
+    border-radius: 20px;
 }
 
 footer {
