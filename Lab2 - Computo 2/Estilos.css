@@ -1,3 +1,11 @@
+body {
+    background-image: url('Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 .container {
     display: flex;
 }
@@ -7,28 +15,25 @@
     height: 100px;
     margin: 20px;
     cursor: pointer;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px; 
 }
 
 .box {
-    background-color: orange;
-    text-align: left;
+    background-color: rgb(241, 211, 16);
+    text-align: center;
     line-height: 50px;
 }
 
 .box1 {
     width: 200px;
     height: 200px;
-    background-color: skyblue;
+    background-color: rgb(53, 30, 228);
     text-align: center;
     line-height: 50px;
-    border-radius: 20px; /* Podemos ajustar el radio para diferentes cuadros */
+    border-radius: 20px;
 }
 
 footer {
     margin-top: 20px;
 }
-
-
-
